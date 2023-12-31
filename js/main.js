@@ -673,6 +673,7 @@ class Auth {
             })
             .catch(error => {
                 console.error('POST Request Failed:', error);
+                return JSON.stringify({status:false});
             });
     }
 }

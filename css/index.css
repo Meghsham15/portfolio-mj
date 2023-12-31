@@ -284,10 +284,11 @@ footer ul {
 .normal {
     width: 100%;
     color: darkgray;
-    font-size: 1.3vw;
-    letter-spacing: 0.2vw;
+    letter-spacing: 0.15vw;
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 1vw;
+    word-spacing: 0.3vw;
+    font-size: 1.4vw;
 }
 
 .let {
@@ -417,6 +418,7 @@ footer ul {
 }
 
 .des {
+    padding: 0px 10px;
     color: #d41111;
     display: flex;
     transition: all 0.3s ease-in-out;
@@ -427,9 +429,10 @@ footer ul {
 }
 
 .des:hover {
-    background: rgb(161, 150, 150);
+    background: rgb(255 255 255 / 80%);
     color: black;
     transform: scale(1.1);
+    border-radius: 10%;
 }
 
 .des img {

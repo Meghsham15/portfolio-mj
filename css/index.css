@@ -791,8 +791,7 @@ footer ul {
 
 .projectContent {
     display: inline-block;
-    width: 35vw;
-    width: 445px;
+    width: 30vw;
     /* height: 27vw; */
     /* height: 400px; */
     z-index: 1;

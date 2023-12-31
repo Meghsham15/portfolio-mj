@@ -16,6 +16,7 @@ h1 {
 } */
 
 .loginContainer {
+    animation: reveal 1s ease-in-out;
     background: black;
     justify-content: center;
     width: 40%;

@@ -615,11 +615,13 @@ footer ul {
 }
 
 .login h3 {
+    font-size: 1.4vw;
     margin: 2vw 0vw;
     transition: all 0.3s ease-in-out;
 }
 
 .login h3:hover {
+    font-size: 1.5vw;
     color: #2ca6b1;
     transform: scale(1.2);
 }

@@ -25,6 +25,38 @@
     width: 15%;
 }
 
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+        /* Start position (off-screen to the left) */
+    }
+
+    100% {
+        transform: translateX(0%);
+        /* End position (center of the screen) */
+    }
+}
+
+@keyframes slideOut {
+    0% {
+        transform: translateX(75%);
+        /* Start position (off-screen to the left) */
+    }
+
+    100% {
+        transform: translateX(0%);
+        /* End position (center of the screen) */
+    }
+}
+
+.slideOut{
+    animation: slideOut 1s ease-in-out;
+}
+
+.slideIn{
+    animation: slideIn 1s ease-in-out;
+}
+
 @keyframes rotateAndScale {
     0% {
         transform: rotate(0deg) scale(1);
@@ -43,32 +75,36 @@
     }
 }
 
-@keyframes reveal{
-    0%{
+@keyframes reveal {
+    0% {
         transform: rotate(270deg) scale(0.2);
         filter: blur(4);
     }
-    100%{
+
+    100% {
         transform: rotate(360deg) scale(1);
         /* filter: blur(0); */
     }
-}
-.reveal{
-   animation: reveal 1s ease-in-out;
 }
 
-@keyframes close{
-   
-    0%{
+.reveal {
+    animation: reveal 1s ease-in-out;
+}
+
+@keyframes close {
+
+    0% {
         transform: rotate(360deg) scale(1);
         /* filter: blur(0); */
     }
-    100%{
+
+    100% {
         transform: rotate(270deg) scale(0.2);
         filter: blur(4);
     }
 }
-.close{
+
+.close {
     animation: close 1s ease-in-out;
 }
 
@@ -707,7 +743,7 @@ footer ul {
     width: 2vw;
 } */
 .projectBox {
-    width: 70%;
+    width: 75%;
     height: 70%;
     /* margin-right: 16vw; */
     overflow: hidden;
@@ -757,7 +793,7 @@ footer ul {
 
 .buttons {
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: 0vw auto;
     justify-content: space-between;
     align-items: center;

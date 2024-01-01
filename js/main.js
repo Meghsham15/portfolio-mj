@@ -182,7 +182,7 @@ $(".projectBox").scroll(function () {
 });
 $("#lB").click(function () {
     let scrollVal = $(".projectBox").scrollLeft();
-    scrollVal -= 522;
+    scrollVal -= 530;
     $(".projectBox").scrollLeft(scrollVal);
     $(".proInner").css("animation", "slideleft 0.5s ease-in-out");
     let interval = setInterval(function () {
@@ -193,7 +193,7 @@ $("#lB").click(function () {
 
 $("#rB").click(function () {
     let scrollVal = $(".projectBox").scrollLeft();
-    scrollVal += 522;
+    scrollVal += 530;
     $(".projectBox").scrollLeft(scrollVal);
     $(".proInner").css("animation", "slideRight 0.5s ease-in-out");
     let interval = setInterval(function () {

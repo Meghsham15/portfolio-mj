@@ -180,27 +180,7 @@ $(".projectBox").scroll(function () {
     let scrollVal = $(".projectBox").scrollLeft();
     // console.log(scrollVal);
 });
-$("#lB").click(function () {
-    let scrollVal = $(".projectBox").scrollLeft();
-    scrollVal -= 530;
-    $(".projectBox").scrollLeft(scrollVal);
-    $(".proInner").css("animation", "slideleft 0.5s ease-in-out");
-    let interval = setInterval(function () {
-        $(".proInner").css("animation", "none");
-        clearInterval(interval);
-    }, 500);
-});
 
-$("#rB").click(function () {
-    let scrollVal = $(".projectBox").scrollLeft();
-    scrollVal += 530;
-    $(".projectBox").scrollLeft(scrollVal);
-    $(".proInner").css("animation", "slideRight 0.5s ease-in-out");
-    let interval = setInterval(function () {
-        $(".proInner").css("animation", "none");
-        clearInterval(interval);
-    }, 500);
-});
 
 
 // skills -----

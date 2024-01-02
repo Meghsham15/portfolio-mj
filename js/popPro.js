@@ -5,18 +5,18 @@ const projects = [
         img: "./img/hotel.png",
         name: "Hotel Website",
         des:"Responsive website for advertisement of a hotel situated near a beach",
-        link:"https://mj-hotel.azurewebsites.net/"
+        link:"https://meghsham15.github.io/hotel/"
     },
     {
         id: 102,
-        link: "https://obscure-springs-34432.herokuapp.com/",
+        link: "https://github.com/Meghsham15/songs-project",
         img: "./img/music.png",
         name: "Music Website",
         des:"In this project i have created music website which plays music produced by my friend.",
     },
     {
         id: 103,
-        link: "https://fierce-inlet-60024.herokuapp.com/",
+        link: "https://github.com/Meghsham15/journal-website",
         img: "./img/Journal.png",
         name: "Journal Website",
         des:"Journal website with some basic mongo skills used in it",
@@ -28,6 +28,20 @@ const projects = [
     {
         id: 105,
         name: "login",
+    },
+    {
+        id: 106,
+        link: "https://github.com/Meghsham15/journal-website",
+        img: "./img/reactBookList.png",
+        name: "React Booklist App",
+        des:"React booklist app with some basic react skills",
+    },
+    {
+        id: 107,
+        link: "https://github.com/Meghsham15/portfolio-nodejs",
+        img: "./img/portfolioNode.png",
+        name: "Nodejs Portfolio",
+        des:"Node js app with Mongodb and oauth skills",
     },
 ]
 

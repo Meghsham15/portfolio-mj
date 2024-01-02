@@ -20,6 +20,20 @@ const proj = [
         name: "Journal Website",
         des: "Journal website with some basic mongo skills used in it",
     },
+    {
+        id: 106,
+        link: "https://meghsham15.github.io/react-books-app/",
+        img: "./img/reactBookList.png",
+        name: "React Booklist App",
+        des: "React booklist app with some basic react skills",
+    },
+    {
+        id: 107,
+        link: "https://github.com/Meghsham15/portfolio-nodejs",
+        img: "./img/portfolioNode.png",
+        name: "Node js Portfolio",
+        des: "Node js app with Mongodb and oauth skills",
+    },
 ]
 
 let projectDiv = document.getElementById('projectSlide');
@@ -52,7 +66,7 @@ for (let i = 0; i < proj.length; i++) {
     let e = proj[i];
     // Create the main container div
     var proPopContainer = document.createElement('div');
-    proPopContainer.id = 'proPop'+e.id;
+    proPopContainer.id = 'proPop' + e.id;
     proPopContainer.className = 'proPop display';
 
     // Create the popMain div
@@ -98,7 +112,7 @@ for (let i = 0; i < proj.length; i++) {
 
     // Create the proPopB101 anchor element
     var proPopB101Anchor = document.createElement('a');
-    proPopB101Anchor.id = 'proPopB'+e.id;
+    proPopB101Anchor.id = 'proPopB' + e.id;
     proPopB101Anchor.className = 'proPopB';
 
     // Create the p element inside proPopB101Anchor
@@ -116,10 +130,107 @@ for (let i = 0; i < proj.length; i++) {
 }
 
 
+// carosel - 
+class Carosel {
+    constructor() {
+        this.projIds = this.getIds();
+        this.id = this.projIds[0];
+        this.length = this.projIds.length - 1;
+    }
+
+    getIds() {
+        let idArr = [];
+        for (let i = 0; i < proj.length; i++) {
+            for (let key in proj[0]) {
+                if (key === 'id') {
+                    idArr.push(proj[i]['id']);
+                }
+            }
+        }
+        return idArr;
+    }
+
+    right() {
+
+        if (this.id === 101) {
+            let pos = 1;
+            console.log(pos + ' ' + this.projIds[pos]);
+            window.location.href = '#' + this.projIds[pos];
+            this.id = this.projIds[pos];
+            return;
+        }
+        if (this.id === this.projIds[this.length]) {
+            let pos = 0;
+            console.log(pos + ' ' + this.projIds[pos]);
+            window.location.href = '#' + this.projIds[pos];
+            this.id = this.projIds[pos];
+            return;
+        }
+
+        for (let i = 0; i <= this.length; i++) {
+            if (this.id === this.projIds[i]) {
+                let pos = i + 1;
+                console.log(pos + ' ' + this.projIds[pos]);
+                window.location.href = '#' + this.projIds[pos];
+                this.id = this.projIds[pos];
+                return;
+            }
+        }
+
+    }
+
+    left() {
+        if (this.id === 101) {
+            let pos = this.length;
+            console.log(pos + ' ' + this.projIds[pos]);
+            window.location.href = '#' + this.projIds[pos];
+            this.id = this.projIds[pos];
+            return;
+        }
+        if (this.id === this.projIds[this.length]) {
+            let pos = this.length - 1;
+            console.log(pos + ' ' + this.projIds[pos]);
+            window.location.href = '#' + this.projIds[pos];
+            this.id = this.projIds[pos];
+            return;
+        }
+
+        for (let i = 0; i <= this.length; i++) {
+            if (this.id === this.projIds[i]) {
+                let pos = i - 1;
+                console.log(pos + ' ' + this.projIds[pos]);
+                window.location.href = '#' + this.projIds[pos];
+                this.id = this.projIds[pos];
+                return;
+            }
+        }
 
 
+    }
 
+}
 
+// carosel - 
+
+let trl = new Carosel();
+console.log(trl.getIds());
+$("#lB").click(function () {
+    trl.left();
+    $(".proInner").css("animation", "slideleft 0.5s ease-in-out");
+    let interval = setInterval(function () {
+        $(".proInner").css("animation", "none");
+        clearInterval(interval);
+    }, 500);
+});
+
+$("#rB").click(function () {
+    trl.right();
+    $(".proInner").css("animation", "slideRight 0.5s ease-in-out");
+    let interval = setInterval(function () {
+        $(".proInner").css("animation", "none");
+        clearInterval(interval);
+    }, 500);
+});
 
 
 

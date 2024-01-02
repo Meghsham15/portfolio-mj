@@ -829,16 +829,17 @@ footer ul {
 
 .projectContent {
     display: inline-block;
-    width: 30vw;
+    width: 40vw;
     /* height: 27vw; */
     /* height: 400px; */
     z-index: 1;
-    margin: 0vw 50px;
+    /* margin: 0vw 50px; */
+    padding: 0vw 50px;
     cursor: pointer;
 }
 
 .proInner {
-    width: inherit;
+    width: fit-content;
     height: 90%;
     /* margin: 0vw 5.5vw; */
     /* margin: auto; */

@@ -1,7 +1,7 @@
 const projects = [
     {
         id: 101,
-        link: "https://mj-hotel.azurewebsites.net/",
+        link: "https://meghsham15.github.io/hotel/",
         img: "./img/hotel.png",
         name: "Hotel Website",
         des:"Responsive website for advertisement of a hotel situated near a beach",
@@ -31,7 +31,7 @@ const projects = [
     },
     {
         id: 106,
-        link: "https://github.com/Meghsham15/journal-website",
+        link: "https://meghsham15.github.io/react-books-app/",
         img: "./img/reactBookList.png",
         name: "React Booklist App",
         des:"React booklist app with some basic react skills",

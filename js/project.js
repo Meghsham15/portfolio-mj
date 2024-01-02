@@ -1,38 +1,39 @@
 const proj = [
     {
         id: 101,
-        link: "https://mj-hotel.azurewebsites.net/",
+        link: "https://meghsham15.github.io/hotel/",
         img: "./img/hotel.png",
         name: "Hotel Website",
-        des: "Responsive website for advertisement of a hotel situated near a beach",
+        des:"Responsive website for advertisement of a hotel situated near a beach",
+        link:"https://meghsham15.github.io/hotel/"
     },
     {
         id: 102,
-        link: "https://error404-music.azurewebsites.net/",
+        link: "https://github.com/Meghsham15/songs-project",
         img: "./img/music.png",
         name: "Music Website",
-        des: "In this project i have created music website which plays music produced by my friend.",
+        des:"In this project i have created music website which plays music produced by my friend.",
     },
     {
         id: 103,
-        link: "https://fierce-inlet-60024.herokuapp.com/",
+        link: "https://github.com/Meghsham15/journal-website",
         img: "./img/Journal.png",
         name: "Journal Website",
-        des: "Journal website with some basic mongo skills used in it",
+        des:"Journal website with some basic mongo skills used in it",
     },
     {
         id: 106,
         link: "https://meghsham15.github.io/react-books-app/",
         img: "./img/reactBookList.png",
         name: "React Booklist App",
-        des: "React booklist app with some basic react skills",
+        des:"React booklist app with some basic react skills",
     },
     {
         id: 107,
         link: "https://github.com/Meghsham15/portfolio-nodejs",
         img: "./img/portfolioNode.png",
-        name: "Node js Portfolio",
-        des: "Node js app with Mongodb and oauth skills",
+        name: "Nodejs Portfolio",
+        des:"Node js app with Mongodb and oauth skills",
     },
 ]
 

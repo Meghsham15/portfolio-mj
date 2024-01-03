@@ -180,7 +180,7 @@
     margin: 20vw 0vw;
 }
 .proInfo h2 {
-    font-size: 9vw;
+    font-size: 8vw;
 }
 .proImg {
     height: 40%;
@@ -291,14 +291,22 @@ footer {
 }
 
 .webLink h4 {
-    font-size: 3.2vw;
+    font-size: 3.5vw;
 }
 
 .popMain h3 {
-    font-size: 3vw;
+    font-size: 5vw;
 }
 
 .webLink a {
-    font-size: 2.2vw;
+    font-size: 3.2vw;
 
+}
+
+#rotatingImage {
+    position: absolute;
+    left: 29%;
+    top: 40%;
+    animation: rotateAndScale 2s infinite ease-in-out;
+    width: 40%;
 }

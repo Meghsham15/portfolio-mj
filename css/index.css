@@ -19,7 +19,7 @@
 
 #rotatingImage {
     position: absolute;
-    left: 45%;
+    left: 42%;
     top: 25%;
     animation: rotateAndScale 2s infinite ease-in-out;
     width: 15%;

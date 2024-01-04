@@ -35,6 +35,13 @@ const proj = [
         name: "Nodejs Portfolio",
         des:"Node js app with Mongodb and oauth skills",
     },
+    {
+        id: 108,
+        link: "https://meghsham15.github.io/react-todo/",
+        img: "./img/keeperApp.png",
+        name: "React Todo App",
+        des:"React js Todo app",
+    },
 ]
 
 let projectDiv = document.getElementById('projectSlide');

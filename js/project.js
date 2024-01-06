@@ -9,7 +9,7 @@ const proj = [
     },
     {
         id: 102,
-        link: "https://github.com/Meghsham15/songs-project",
+        link: "https://meghsham15.github.io/songs-project-/",
         img: "./img/music.png",
         name: "Music Website",
         des:"In this project i have created music website which plays music produced by my friend.",

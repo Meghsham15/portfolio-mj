@@ -657,7 +657,9 @@ class Auth {
             });
     }
 }
-
+if(window.innerWidth<630){
+    alert('Use laptop or desktop for better experience')
+}
 
 // async function trail() {
 //     let auth = new Auth('login');

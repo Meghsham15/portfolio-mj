@@ -50,6 +50,13 @@ const projects = [
         name: "React Todo App",
         des:"React js Todo app",
     },
+    {
+        id: 109,
+        link: "https://github.com/Meghsham15/chat-app/tree/main",
+        img: "./img/RTCA.png",
+        name: "Real time chat App",
+        des:"Real time chat app using socket.io in nodejs",
+    },
 ]
 
 export default projects;

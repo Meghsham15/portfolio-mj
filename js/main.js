@@ -355,11 +355,11 @@ class Auth {
             if (await this.addChat()) {
                 this.displayComments();
             } else {
-                alert("Error occured please login to add comment");
+                alert("Error occured comment cannot be empty ");
             }
         } else if (this.action === 'logout') {
             if (await this.logout()) {
-                this.removeComments();
+                await this.removeComments();
             } else {
                 alert("Error occured");
             }
@@ -367,7 +367,7 @@ class Auth {
 
     }
 
-    removeComments() {
+    async removeComments() {
         let commentDiv = document.getElementById('comments');
         commentDiv.classList.remove('commentsLog');
         commentDiv.innerHTML = '';
@@ -509,6 +509,9 @@ class Auth {
         this.username = document.getElementById('cUsername').value;
         this.password = document.getElementById('cPass').value;
         let comment = document.getElementById('commentInput');
+        if(comment.value===""||comment.value===undefined){
+            return false;
+        }
         let data = {
             action: 'addChat',
             username: this.username,

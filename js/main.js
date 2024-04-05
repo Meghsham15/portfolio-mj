@@ -651,7 +651,7 @@ class Auth {
             .then(this.handleErrors)
             .then(data => {
                 // this.display(JSON.stringify(data));
-                console.log('POST Request Successful:', data);
+                // console.log('POST Request Successful:', data);
                 return JSON.stringify(data);
             })
             .catch(error => {

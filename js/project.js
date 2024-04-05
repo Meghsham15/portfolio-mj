@@ -49,6 +49,13 @@ const proj = [
         name: "Real time chat App",
         des:"Real time chat app using socket.io in nodejs",
     },
+    {
+        id: 110,
+        link: "https://meghsham15.github.io/react-portfolio/",
+        img: "./img/portfolioNode.png",
+        name: "Reactjs portfolio",
+        des:"Portfolio created using reactjs",
+    },
 ]
 
 let projectDiv = document.getElementById('projectSlide');

@@ -670,3 +670,7 @@ if(window.innerWidth<630){
 //     console.log(res);
 // }
 // trail();
+
+
+
+

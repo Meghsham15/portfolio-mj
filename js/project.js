@@ -228,7 +228,7 @@ class Carosel {
 // carosel - 
 
 let trl = new Carosel();
-console.log(trl.getIds());
+// console.log(trl.getIds());
 $("#lB").click(function () {
     trl.left();
     $(".proInner").css("animation", "slideleft 0.5s ease-in-out");

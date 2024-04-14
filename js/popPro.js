@@ -1,11 +1,10 @@
 const projects = [
     {
         id: 101,
-        link: "https://meghsham15.github.io/hotel/",
-        img: "./img/hotel.png",
-        name: "Hotel Website",
-        des:"Responsive website for advertisement of a hotel situated near a beach",
-        link:"https://meghsham15.github.io/hotel/"
+        link: "https://bids6-qqaaa-aaaak-ako6q-cai.icp0.io/",
+        img: "./img/portfolioNode.png",
+        name: "Web3 Portfolio",
+        des:"Portfolio using web3 technology",
     },
     {
         id: 102,
@@ -63,6 +62,14 @@ const projects = [
         img: "./img/portfolioNode.png",
         name: "Reactjs portfolio",
         des:"Portfolio created using reactjs",
+    },
+    {
+        id: 111,
+        link: "https://meghsham15.github.io/hotel/",
+        img: "./img/hotel.png",
+        name: "Hotel Website",
+        des:"Responsive website for advertisement of a hotel situated near a beach",
+        link:"https://meghsham15.github.io/hotel/"
     },
 ]
 

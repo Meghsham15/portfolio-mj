@@ -2,48 +2,48 @@ const skills = [
     {
         id: "fadeRight1",
         name: "HTML",
-        img:"../img/html.png"
+        img:"./img/html.png"
     },
     {
         id: "fadeUp1",
         name: "CSS",
-        img:"../img/css.png"
+        img:"./img/css.png"
     },
     {
         id: "fadeLeft1",
         name: "JavaScript",
-        img:"../img/js.png"
+        img:"./img/js.png"
     },
     // 6
     {
         id: "fadeRight2",
         name: "Motoko",
-        img:"../img/motoko.png"
+        img:"./img/motoko.png"
     },
     {
         id: "fadeUp2",
         name: "ICP Blockchain",
-        img:"../img/icp.png"
+        img:"./img/icp.png"
     },
     {
         id: "fadeLeft2",
         name: "Node JS",
-        img:"../img/nodejs.png"
+        img:"./img/nodejs.png"
     },
     {
         id: "fadeRight3",
         name: "Mongodb",
-        img:"../img/mongo.png"
+        img:"./img/mongo.png"
     },
     {
         id: "fadeUp3",
         name: "React Js",
-        img:"../img/reactjs.png"
+        img:"./img/reactjs.png"
     },
     // 9
     {
         id: "fadeLeft3",
-        img:"../img/api.png",
+        img:"./img/api.png",
         name: "Rest API"
     },
     
